@@ -1,9 +1,5 @@
 //your JS code here. If required.
 function upperCase(str){
-  str = str.toUpperCase();
-	return str;
-	
+  let input = document.getElementById("fname");
+	input .value = input.value.toUpperCase();
 }
-// Please do not change the code below
- const s1 = prompt("Enter s1:");
-alert(upperCase(s1));
